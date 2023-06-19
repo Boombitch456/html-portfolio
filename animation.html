@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=di, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            display: flex;
+            background-color: greenyellow;
+        }
+        .box{
+            background-color: green;
+            width: 250px;
+            height: 250px;
+            position: relative;
+            animation-name: blah;
+            animation-duration: 0.7s;
+            animation-iteration-count: 4;
+            animation-fill-mode: forwards;
+        }
+        @keyframes blah {
+            from{
+                width:272px;
+            }
+            to{
+                width:678px;
+            }
+            
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            This a box
+        </div>
+    </div>
+</body>
+</html>
